@@ -1,0 +1,312 @@
+.container{
+width: 100%;
+max-width: 1280px;;
+margin: 0px;
+}
+#subheader{
+    width: 100%;
+    height: 30px;
+    background:#ffdef691;
+    color: rgb(11, 11, 11);
+    margin-top: -15px;
+    
+}
+#subheader p{
+   float: left;
+   margin-top: 7px;
+}
+#subheader a{
+float: right;
+line-height: 30px;
+color: rgb(11, 11, 11);
+text-decoration:crimson;
+margin-left: 30px;
+}
+#subheader a:hover {
+    color: rgb(224, 9, 106);
+    transition: all 0.5s ease;
+    }
+#main-header{
+    width: 100%;
+    height: 100px;
+    background:#ffdef691;
+    float: left;
+    margin-top: -15px;
+}
+#logo{
+    width: 250px;
+    margin-top: 10px;
+    float: left;
+}
+#ist{
+    color: black;
+    font-size: 45px;
+    font-weight: bold;
+    margin-left: 15px;
+    font-family: cursive;
+}
+#iist{
+    color: brown;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: cursive;
+}
+#search{
+width: 500px;
+float:left;
+padding: 10px;
+margin-top: 14px;
+margin-left: -10px;
+position:relative;
+}
+.search-area{
+width: 350px;
+height: 40px;
+background: #fff;
+border: none;
+border-radius: 10px;
+float: left;
+padding-left: 10px; 
+
+}
+.search-btn{
+    width: 100px;
+    height: 42px;
+    border: none;
+    border-radius: 9px;
+    color: #fff;
+    background: brown;
+    margin-left: -100px;
+    position:absolute;
+}
+#user-menu{
+    width:270px;
+    float: right;
+    margin-top: -80px;
+}
+#user-menu li{
+    float: right;
+    width: 140;
+    text-align:center;
+    list-style: none;
+    font-size: 15px;
+    border-left: 0px solid black;
+}
+#user-menu li:hover{
+    font-size:25px ;
+    transition: all.5s ease;
+}
+#user-menu li a{
+    color: rgb(16, 16, 16);
+    text-decoration: none;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+#navigation{
+    width: 100%;
+    height: 35px;
+    background: #ffdef691;
+    float: left;
+    box-shadow: 10px 14px 50px 2px #1aaa1a;
+}
+nav{
+    width: 1280;
+    margin: 0 auto;
+}
+nav a{
+    margin-left: 35px;
+    color: black;
+    text-decoration:none ;
+}
+nav a:hover{
+    color: rgb(224, 9, 106);
+    transition: all 0.5s ease;
+}
+#slider{
+    width: 100%;
+    max-width: 100%;
+    float: left;
+    overflow: hidden;
+    margin: 0;
+}
+
+.bx-wrapper .bx-viewport{
+    margin-top: 0;
+}
+.bx-wrapper.bx-pager, .bx-wrapper .bx-controls-auto{
+    bottom: 30px;
+}
+.bx-wrapper.bx-pager .bx-default-pager a{
+    width: 15px;
+    height: 15px;
+    border-radius: 20px;
+}
+
+
+
+
+
+#heading-block{
+    width: 100%;
+    height: auto;
+    float: left;
+    color: #1aaa1a;
+    font-size: 22px;
+}
+#heading-block h2{
+    line-height: 35px;
+    border-left: 20px solid #1aaa1a;
+    padding-left: 10px;
+}
+.catbox{
+    width: 160px;
+    height: 160px;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    margin: 0px 15px 30px 0px;
+}
+.catbox span{
+    width: 100%;
+    height: 35px;
+    line-height: 35px;
+    background:rgba(0, 0, 0, 0.6) ;
+    color: #fff;
+    display: block;
+    bottom: 30px;
+    position: absolute;
+    z-index: 999;
+    text-align: center;
+}
+.catbox img{
+    max-width: 100%;
+    transition: all .5s ease;
+}
+.catbox:hover span{
+    color: red;
+}
+.catbox:hover img{
+    transform: scale(1.3,1.3);
+    transition: all .5 ease;
+}
+.prod-box{
+    width: 235px;
+    height: 300px;
+    overflow: hidden;
+    margin: 0px 18px 30px 0px;
+    position: relative;
+    float: left;
+}
+.prod-box>img{
+    max-width: 100%;
+}
+.prod-trans{
+    background:rgba(0, 0, 0, 0.6);
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    opacity: 0;
+    transition: all .5s ease;
+}
+.prod-box:hover .prod-trans{
+    opacity: 1;
+    transition: all .5s ease;
+
+}
+.ptod-fetuer{
+    text-align: center;
+    margin-top: -150px;
+    transition: all .5s ease;
+    
+}
+.ptod-fetuer p{
+    color: #00eb00;
+    font-family: Verdana;
+}
+.prod-box:hover .ptod-fetuer{
+    margin-top: 150px;
+    transition: all .5s ease;
+}
+.ptod-fetuer input{
+    width: 150px;
+    height: 35px;
+    font-size: 17p;
+}
+.offer{
+    width: 415px;
+    float: left;
+    margin-right: 10px;
+}
+.offer img{
+    width: 100%;
+}
+#footer{
+    width: 100%;
+    height: auto;
+    background: #f5f5f5;
+    float: left;
+}
+.footer_sub_1{
+    width: 25%;
+    float: left;
+    
+}
+.footer_sub_2{
+   width: 20%;
+   float: left;
+}
+.footer_sub_2 ul li{
+    list-style: none;
+}
+.footer_sub_2 a{
+    text-decoration: none;
+    color: #000;
+}
+.footer_sub_2 a:hover{
+color:#1aaa1a ;
+text-decoration:underline;
+}
+.footer_sub_3{
+    width: 35%;
+    float: left;
+}
+.subs{
+    width: 350px;
+    border: none;
+    height: 40px;
+    float: left;
+    padding-left:15px ;
+}
+.sub_btn{
+    height: 50px;
+    border: none;
+    background: #1aaa1a;
+    margin-left: 10px;
+    float: left;
+    padding-left:15px ;
+}
+.sub_p{
+    color: #999;
+    font-style:italic;
+    font-size: 15px;
+    float: left;
+}
+.menu-togglr{
+    color: white;
+    position: absolute;
+    top: 70px;
+    left: 20px;
+    font-size: 20px;
+    display: none;
+}
+.mor{
+   color: #1618aa;
+}
+#header{
+    background:#ffdef691;
+    border-left: 1px solid black;
+}
